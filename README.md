@@ -1,5 +1,5 @@
-**
-[ Spring boot와 Java를 활용하여 Account(계좌 관리) 시스템을 만드는 프로젝트 과제 ]**
+### [ Spring boot와 Java를 활용하여 Account(계좌 관리) 시스템을 만드는 프로젝트 과제 ]
+
 1️⃣ **공통 요구사항**
 \- Spring boot와 Java를 활용합니다.
 \- 단위테스트를 작성하여 작성한 코드를 검증합니다.
@@ -67,4 +67,3 @@ i. 실패 : 해당 transaction_id 없는 경우 실패 응답
 ii. 성공
 \- 응답 : 계좌번호, 거래종류(잔액 사용, 잔액 사용 취소), transaction_result, transaction_id, 거래금액, 거래일시
 \- 성공거래 뿐 아니라 실패한 거래도 거래 확인할 수 있도록 합니다.
-
