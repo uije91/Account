@@ -1,13 +1,13 @@
 ## Spring boot와 Java를 활용하여 Account(계좌 관리) 시스템
 
 ### :one: 공통 요구사항
-\- Spring boot와 Java를 활용합니다.
-\- 단위테스트를 작성하여 작성한 코드를 검증합니다.
-\- DB는 H2 DB(memory DB 모드)를 활용합니다.
-\- DB를 접근하는 방법은 Spring data jpa를 활용합니다.
-\- Embedded redis를 활용합니다.
-\- API Request body와 Response body는 json 타입으로 표현합니다.
-\- 각각의 API들은 각자의 요청과 응답 객체 구조를 갖습니다. (다만, 요청을 처리하다가 실패하는 경우의 응답은 공통된 구조를 갖도록 합니다.)
+- Spring boot와 Java를 활용합니다.
+- 단위테스트를 작성하여 작성한 코드를 검증합니다.
+- DB는 H2 DB(memory DB 모드)를 활용합니다.
+- DB를 접근하는 방법은 Spring data jpa를 활용합니다.
+- Embedded redis를 활용합니다.
+- API Request body와 Response body는 json 타입으로 표현합니다.
+- 각각의 API들은 각자의 요청과 응답 객체 구조를 갖습니다. (다만, 요청을 처리하다가 실패하는 경우의 응답은 공통된 구조를 갖도록 합니다.)
 
 2️⃣ **프로젝트 소개**
 \- Account(계좌) 시스템은 사용자와 계좌의 정보를 저장하고 있으며, 외부 시스템에서 거래를 요청할 경우 거래 정보를 받아서 계좌에서 잔액을 거래금액만큼 줄이거나(결제), 거래금액만큼 늘리는(결제 취소) 거래 관리 기능을 제공하는 시스템입니다.
