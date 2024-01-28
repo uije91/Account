@@ -1,6 +1,6 @@
-# Spring boot와 Java를 활용하여 Account(계좌 관리) 시스템
+## Spring boot와 Java를 활용하여 Account(계좌 관리) 시스템
 
-**:one: 공통 요구사항**
+### :one: 공통 요구사항
 \- Spring boot와 Java를 활용합니다.
 \- 단위테스트를 작성하여 작성한 코드를 검증합니다.
 \- DB는 H2 DB(memory DB 모드)를 활용합니다.
