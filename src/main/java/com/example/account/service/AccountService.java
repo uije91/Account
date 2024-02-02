@@ -70,7 +70,8 @@ public class AccountService {
         if (id < 0) {
             throw new RuntimeException("Minus");
         }
-        return accountRepository.findById(id).get();
+        return accountRepository.findById(id)
+                .orElseThrow( () -> new AccountException(ACCOUNT_NOT_FOUND));
     }
 
 
